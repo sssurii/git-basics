@@ -18,7 +18,7 @@ git commit -m "comments"
 
 Store your git credentials in local repo:
 `git config credential.helper store`
-Provide your credentials only once while any pull or push request, it will be cached/stored in you repo.
+(provide your credentials only once while any pull or push request, it will be cached/stored in you repo.)
 
 Uncommit you last commit on local repo
 `git reset --soft HEAD^`
