@@ -26,8 +26,23 @@ Uncommit you last commit on local repo
 Unstaged staged files
 `git reset`
 
-check remove origin URL/Source:
+check remote origin URL/Source:
 `git remove -v`
 
 Update/Change Remote URL:
 `git remote set-url origin https://github.com/repo/name.git`
+
+List all branches:
+`git branch`
+
+create a new branch on the local repo:
+`git checkout -b [branch-name]`
+
+Merge another branch into your current branch:
+`git merge [another-branch-name]`
+
+Delete a branch (not current):
+`git branch -d [branch-name]`
+
+Git pull/push from/to a particular branch
+`git pull/push origin [branch-name]`
